@@ -2,7 +2,7 @@
 
 This private bot  download the youtube videos on your server and keep them for 48 hours(default). every authorized user should have a telegram account with username. all the files are downloaded to the **dl** folder and will be remove after 48 hours.
 
-**Requirements :**
+**Requirements**
  1. At least one telegram account with username
  2. A  docker enabled server or Nodejs installed
 
@@ -10,7 +10,7 @@ This private bot  download the youtube videos on your server and keep them for 4
 
 You can use config file or environment variables(ENV has priority) to config the app, first create a Bot using Telegram botFather and enabled inline_keyboard feature.
 
-**Config the environments:** 
+**Config the environments** 
 
 - USERNAMES=comma separated telegram users' username
 - BOT_TOKEN=from the BotFather 
