@@ -1,0 +1,22 @@
+version: '2'
+services:
+  backend:
+    image: pakoo/ytdl:latest
+    environment:
+      - USERNAMES=user1,user2
+      - BOT_TOKEN=xxxxxxxxxxxxxxxxxxxxx
+      - BASE_URL=https://yourserver.com
+      - PORT=80
+    restart: always
+    networks:
+      - network
+    volumes:
+      - files_data:/app/dl
+
+networks:
+  network:
+
+volumes:
+  files_data:
+    external: false
+    driver: local 

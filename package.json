@@ -1,0 +1,18 @@
+{
+  "name": "ydl",
+  "version": "1.0.0",
+  "description": "Youtube dl private telegram UI",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "author": "Sina Sharafzadeh",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "express": "^4.17.1",
+    "find-remove": "^1.2.2",
+    "telegraf": "^3.32.0",
+    "youtube-dl": "^2.0.1"
+  }
+}

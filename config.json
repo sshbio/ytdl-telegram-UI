@@ -1,0 +1,6 @@
+{
+	"usernames":["user1","user2"],
+	"telegramToken":"",
+	"baseURL":"localhost",
+	"port":9000
+}
